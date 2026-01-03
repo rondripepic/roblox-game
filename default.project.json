@@ -6,6 +6,8 @@
     "ReplicatedStorage": {
       "SharedModules": {
         "$className": "Folder",
+      "SharedModules": {
+        "$className": "Folder",
         "$path": "src/shared"
       }
     },
@@ -29,15 +31,20 @@
         "$properties": {
           "Anchored": true,
           "Color": [0.38823, 0.37254, 0.38823],
+          "Color": [0.38823, 0.37254, 0.38823],
           "Locked": true,
+          "Position": [0, -10, 0],
+          "Size": [512, 20, 512]
           "Position": [0, -10, 0],
           "Size": [512, 20, 512]
         }
       }
     },
 
+
     "Lighting": {
       "$properties": {
+        "Ambient": [0, 0, 0],
         "Ambient": [0, 0, 0],
         "Brightness": 2,
         "GlobalShadows": true,
@@ -46,6 +53,7 @@
       }
     },
 
+
     "SoundService": {
       "$properties": {
         "RespectFilteringEnabled": true
@@ -53,3 +61,4 @@
     }
   }
 }
+
